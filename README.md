@@ -1,3 +1,17 @@
+# Laravel Circuit Breaker
+
+> A Laravel implementation of the Circuit Breaker pattern to prevent cascading failures in distributed systems.
+
+![Stars](https://img.shields.io/github/stars/cognitx-leyton/laravel-circuit-breaker?style=flat-square) ![PHP](https://img.shields.io/badge/php-%5E8.0-8892BF?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-8.x--12.x-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+
+## Table of Contents
+
+- [Motivation](#motivation)
+- [Installation](#installation)
+- [Usage](#usage)
+
+---
+
 ## Motivation
 The Circuit Breaker Pattern is essential for ensuring your software's resilience. It prevents failures from spreading, maintaining operational stability even when services encounter issues. By providing visual feedback and improving user experience, it keeps your application running smoothly. Additionally, it simplifies maintenance and troubleshooting, enabling quicker problem resolution. Overall, integrating the Circuit Breaker Pattern is crucial for enhancing reliability and user satisfaction.
 
@@ -122,3 +136,9 @@ class MakeOrderController extends Controller
 }
 
 ````
+
+---
+
+<p align="center">
+  <sub>Built with care by <a href="https://cognitx.leyton.com/">Leyton CognitX</a></sub>
+</p>
